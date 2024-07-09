@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07353B855A7C589F3959F32FE1124699 /* Pods-FSPhotoTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A23DB7BAFAC95F1A98768C8EA92518FE /* Pods-FSPhotoTool_Example-dummy.m */; };
+		2768675944B6F7C68A4B801672940913 /* Pods-FSPhotoTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9716785CEC314EBD5D92950896912C38 /* Pods-FSPhotoTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2857F2C6E80E6523CFDE01530EF6D108 /* Pods-FSPhotoTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23063796752887B8E46C387C1F9AC3D3 /* Pods-FSPhotoTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D719B6E9B3883E61580FD18ACD11622 /* FSPhotoTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EBFDB7904A42B78AE84E56746202AE /* FSPhotoTool-dummy.m */; };
+		515BBE93F020A03653121F8C842D397E /* FSPhotoTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CB72CF6E252E5E432F6D6E2EC684DC1 /* FSPhotoTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF2A1120E625E7F55A6DBE3DEB37F1E2 /* Pods-FSPhotoTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2AAF94534596C4828ECFB6B48D4BDD /* Pods-FSPhotoTool_Tests-dummy.m */; };
+		C5E7DBCFED7105D550A9B8DA9B0161CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CB9F294B0F2E56A3351E09AB1780D2BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EA51C438B1F130FE50518A256E664D6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EC30AE9862233C70F67A28127E5D2045 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82200A35268A93E29CD2A3A7F2CD583 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26D39848C94002BFA528D34F2829377C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5614D61C40E32137BF9956423C019A5E;
+			remoteInfo = "Pods-FSPhotoTool_Example";
+		};
+		5659E0F0A0C68FF58EEC256ACE2653BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92222DC28F2BD22675B75C4E8D4E3012;
+			remoteInfo = FSPhotoTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A144755297CE942AAAC603694DDE1B /* Pods-FSPhotoTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FSPhotoTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		086FC439C73DD1F73D0C01B06FBAB402 /* Pods-FSPhotoTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FSPhotoTool_Example.modulemap"; sourceTree = "<group>"; };
+		09FFC5FCA027B34A37490486E47BA024 /* Pods-FSPhotoTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSPhotoTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1765EB01945D9129866D745BB1CA91B5 /* FSPhotoTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSPhotoTool.debug.xcconfig; sourceTree = "<group>"; };
+		1B5BDCDB7E93692F5909FB7BFC9653B1 /* Pods-FSPhotoTool_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FSPhotoTool_Example"; path = Pods_FSPhotoTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23063796752887B8E46C387C1F9AC3D3 /* Pods-FSPhotoTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FSPhotoTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		23AE654917D22EA6D245FA29CE824C8D /* FSPhotoTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FSPhotoTool-Info.plist"; sourceTree = "<group>"; };
+		28ECC529C31A2D6F970B0B499EB1DEFC /* Pods-FSPhotoTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSPhotoTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		31EBFDB7904A42B78AE84E56746202AE /* FSPhotoTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSPhotoTool-dummy.m"; sourceTree = "<group>"; };
+		33724E4F33872E6F863DD6EFA531C996 /* FSPhotoTool */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSPhotoTool; path = FSPhotoTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D9555E0253C5F2D2284E95C8CDE3000 /* Pods-FSPhotoTool_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FSPhotoTool_Tests"; path = Pods_FSPhotoTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60282AE813BC73FDF035715F2879EA71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6CB72CF6E252E5E432F6D6E2EC684DC1 /* FSPhotoTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPhotoTool-umbrella.h"; sourceTree = "<group>"; };
+		706573C7E5CDE23246F4B7E60FA462B0 /* Pods-FSPhotoTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FSPhotoTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		80E2C72B6608B50DD1EBD9B6BAA9B42F /* Pods-FSPhotoTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FSPhotoTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		95CF839B9BF090B09D7919F3B48115B3 /* FSPhotoTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FSPhotoTool.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		9716785CEC314EBD5D92950896912C38 /* Pods-FSPhotoTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FSPhotoTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9AFF6FC27A8DE1B1897AC8BF970B16E8 /* Pods-FSPhotoTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FSPhotoTool_Example-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F4B10727509824BEC7236644F2039FB /* Pods-FSPhotoTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FSPhotoTool_Tests-Info.plist"; sourceTree = "<group>"; };
+		A23DB7BAFAC95F1A98768C8EA92518FE /* Pods-FSPhotoTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FSPhotoTool_Example-dummy.m"; sourceTree = "<group>"; };
+		AAD5E7CDD28B594705FA7587C83236E7 /* Pods-FSPhotoTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FSPhotoTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AF8AF8D3ABF080F35F415A796CE3E381 /* Pods-FSPhotoTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSPhotoTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B82200A35268A93E29CD2A3A7F2CD583 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FSPhotoTool/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		B8ECAA9ED4A26BCA3C2C4FB16D17F1F3 /* Pods-FSPhotoTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FSPhotoTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BC2AAF94534596C4828ECFB6B48D4BDD /* Pods-FSPhotoTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FSPhotoTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		C7DFA2FB3EE952F62E3CFEBDF5BC71F0 /* FSPhotoTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSPhotoTool-prefix.pch"; sourceTree = "<group>"; };
+		D689B30D0359689DA1D4103C069721A7 /* FSPhotoTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSPhotoTool.release.xcconfig; sourceTree = "<group>"; };
+		D70CDFD23B66AC851AE03C3FF621AAF2 /* Pods-FSPhotoTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FSPhotoTool_Tests.modulemap"; sourceTree = "<group>"; };
+		DA9A2A7D7A025F3185726506D5FCE4C0 /* Pods-FSPhotoTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FSPhotoTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		ED486597002B2A812DF3335AF37F8051 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FE2A42BEA3DFCD60569B44A720119D33 /* FSPhotoTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSPhotoTool.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08814EDB3856C72B58EEE3CD7CB8B3FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9F294B0F2E56A3351E09AB1780D2BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944F427FEA860BB6DFF1E3E6A4FF3DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5E7DBCFED7105D550A9B8DA9B0161CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B30CEB77EC4F679211B88895C74848 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA51C438B1F130FE50518A256E664D6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		249242DB29FE0788B66E6B838EB26017 /* Pods-FSPhotoTool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				086FC439C73DD1F73D0C01B06FBAB402 /* Pods-FSPhotoTool_Example.modulemap */,
+				AAD5E7CDD28B594705FA7587C83236E7 /* Pods-FSPhotoTool_Example-acknowledgements.markdown */,
+				706573C7E5CDE23246F4B7E60FA462B0 /* Pods-FSPhotoTool_Example-acknowledgements.plist */,
+				A23DB7BAFAC95F1A98768C8EA92518FE /* Pods-FSPhotoTool_Example-dummy.m */,
+				80E2C72B6608B50DD1EBD9B6BAA9B42F /* Pods-FSPhotoTool_Example-frameworks.sh */,
+				9AFF6FC27A8DE1B1897AC8BF970B16E8 /* Pods-FSPhotoTool_Example-Info.plist */,
+				23063796752887B8E46C387C1F9AC3D3 /* Pods-FSPhotoTool_Example-umbrella.h */,
+				28ECC529C31A2D6F970B0B499EB1DEFC /* Pods-FSPhotoTool_Example.debug.xcconfig */,
+				09FFC5FCA027B34A37490486E47BA024 /* Pods-FSPhotoTool_Example.release.xcconfig */,
+			);
+			name = "Pods-FSPhotoTool_Example";
+			path = "Target Support Files/Pods-FSPhotoTool_Example";
+			sourceTree = "<group>";
+		};
+		2A1BDEED7D31CF62D1E3EF5235F6CD16 /* FSPhotoTool */ = {
+			isa = PBXGroup;
+			children = (
+				B82200A35268A93E29CD2A3A7F2CD583 /* ReplaceMe.swift */,
+				3C09024CD2DAB059C8B74911191DD5C3 /* Pod */,
+				A4852592A148A1C480FED2F1A27397B2 /* Support Files */,
+			);
+			name = FSPhotoTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3C09024CD2DAB059C8B74911191DD5C3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				95CF839B9BF090B09D7919F3B48115B3 /* FSPhotoTool.podspec */,
+				ED486597002B2A812DF3335AF37F8051 /* LICENSE */,
+				60282AE813BC73FDF035715F2879EA71 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8493AE89DC9FE26F2EC513AABAA345C1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				249242DB29FE0788B66E6B838EB26017 /* Pods-FSPhotoTool_Example */,
+				B725C8ED441B9A4C153F59864DB2ECD5 /* Pods-FSPhotoTool_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A4852592A148A1C480FED2F1A27397B2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE2A42BEA3DFCD60569B44A720119D33 /* FSPhotoTool.modulemap */,
+				31EBFDB7904A42B78AE84E56746202AE /* FSPhotoTool-dummy.m */,
+				23AE654917D22EA6D245FA29CE824C8D /* FSPhotoTool-Info.plist */,
+				C7DFA2FB3EE952F62E3CFEBDF5BC71F0 /* FSPhotoTool-prefix.pch */,
+				6CB72CF6E252E5E432F6D6E2EC684DC1 /* FSPhotoTool-umbrella.h */,
+				1765EB01945D9129866D745BB1CA91B5 /* FSPhotoTool.debug.xcconfig */,
+				D689B30D0359689DA1D4103C069721A7 /* FSPhotoTool.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FSPhotoTool";
+			sourceTree = "<group>";
+		};
+		B725C8ED441B9A4C153F59864DB2ECD5 /* Pods-FSPhotoTool_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D70CDFD23B66AC851AE03C3FF621AAF2 /* Pods-FSPhotoTool_Tests.modulemap */,
+				B8ECAA9ED4A26BCA3C2C4FB16D17F1F3 /* Pods-FSPhotoTool_Tests-acknowledgements.markdown */,
+				01A144755297CE942AAAC603694DDE1B /* Pods-FSPhotoTool_Tests-acknowledgements.plist */,
+				BC2AAF94534596C4828ECFB6B48D4BDD /* Pods-FSPhotoTool_Tests-dummy.m */,
+				9F4B10727509824BEC7236644F2039FB /* Pods-FSPhotoTool_Tests-Info.plist */,
+				9716785CEC314EBD5D92950896912C38 /* Pods-FSPhotoTool_Tests-umbrella.h */,
+				AF8AF8D3ABF080F35F415A796CE3E381 /* Pods-FSPhotoTool_Tests.debug.xcconfig */,
+				DA9A2A7D7A025F3185726506D5FCE4C0 /* Pods-FSPhotoTool_Tests.release.xcconfig */,
+			);
+			name = "Pods-FSPhotoTool_Tests";
+			path = "Target Support Files/Pods-FSPhotoTool_Tests";
+			sourceTree = "<group>";
+		};
+		B9903FA5669EBD7EC5E6554C1C750808 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A1BDEED7D31CF62D1E3EF5235F6CD16 /* FSPhotoTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CB253A767D7B6C7D3C54EFFDBA72B286 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33724E4F33872E6F863DD6EFA531C996 /* FSPhotoTool */,
+				1B5BDCDB7E93692F5909FB7BFC9653B1 /* Pods-FSPhotoTool_Example */,
+				5D9555E0253C5F2D2284E95C8CDE3000 /* Pods-FSPhotoTool_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B9903FA5669EBD7EC5E6554C1C750808 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CB253A767D7B6C7D3C54EFFDBA72B286 /* Products */,
+				8493AE89DC9FE26F2EC513AABAA345C1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D111CF2FFF651A6FA2C3CC1DC1370E96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2857F2C6E80E6523CFDE01530EF6D108 /* Pods-FSPhotoTool_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E24D1C1E2A7500E0BB07C69422FB3594 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515BBE93F020A03653121F8C842D397E /* FSPhotoTool-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F344025A2DAED111D934F36602692436 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2768675944B6F7C68A4B801672940913 /* Pods-FSPhotoTool_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5614D61C40E32137BF9956423C019A5E /* Pods-FSPhotoTool_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD20C1FE97681A087B5DE4FE03500470 /* Build configuration list for PBXNativeTarget "Pods-FSPhotoTool_Example" */;
+			buildPhases = (
+				D111CF2FFF651A6FA2C3CC1DC1370E96 /* Headers */,
+				CDB2686ED67A5E3CAC37AA81FB5208A7 /* Sources */,
+				08814EDB3856C72B58EEE3CD7CB8B3FD /* Frameworks */,
+				7A1399EA5D86BE332C5CD2C89434BE0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB9E5D1F49E6E1CB52E7E4F9FF64013C /* PBXTargetDependency */,
+			);
+			name = "Pods-FSPhotoTool_Example";
+			productName = Pods_FSPhotoTool_Example;
+			productReference = 1B5BDCDB7E93692F5909FB7BFC9653B1 /* Pods-FSPhotoTool_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		81FB343A587059E3B27C4591F82A95D1 /* Pods-FSPhotoTool_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60423C8106692D81EE0F64792AA2A92C /* Build configuration list for PBXNativeTarget "Pods-FSPhotoTool_Tests" */;
+			buildPhases = (
+				F344025A2DAED111D934F36602692436 /* Headers */,
+				66FE5C98EA83542C849CADB826F18A7C /* Sources */,
+				944F427FEA860BB6DFF1E3E6A4FF3DFD /* Frameworks */,
+				4D57FBA25A81675E003DFDAA5E548BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFC5C6F042D159C7A44EE67E6F9985D8 /* PBXTargetDependency */,
+			);
+			name = "Pods-FSPhotoTool_Tests";
+			productName = Pods_FSPhotoTool_Tests;
+			productReference = 5D9555E0253C5F2D2284E95C8CDE3000 /* Pods-FSPhotoTool_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		92222DC28F2BD22675B75C4E8D4E3012 /* FSPhotoTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E271CEF832AA4D780434EF730F642A8 /* Build configuration list for PBXNativeTarget "FSPhotoTool" */;
+			buildPhases = (
+				E24D1C1E2A7500E0BB07C69422FB3594 /* Headers */,
+				BAE1354FC2BE27D6E11475BFE4273073 /* Sources */,
+				A3B30CEB77EC4F679211B88895C74848 /* Frameworks */,
+				227F7F05317BD508C267828989CD779F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSPhotoTool;
+			productName = FSPhotoTool;
+			productReference = 33724E4F33872E6F863DD6EFA531C996 /* FSPhotoTool */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CB253A767D7B6C7D3C54EFFDBA72B286 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92222DC28F2BD22675B75C4E8D4E3012 /* FSPhotoTool */,
+				5614D61C40E32137BF9956423C019A5E /* Pods-FSPhotoTool_Example */,
+				81FB343A587059E3B27C4591F82A95D1 /* Pods-FSPhotoTool_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		227F7F05317BD508C267828989CD779F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D57FBA25A81675E003DFDAA5E548BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A1399EA5D86BE332C5CD2C89434BE0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66FE5C98EA83542C849CADB826F18A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2A1120E625E7F55A6DBE3DEB37F1E2 /* Pods-FSPhotoTool_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE1354FC2BE27D6E11475BFE4273073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D719B6E9B3883E61580FD18ACD11622 /* FSPhotoTool-dummy.m in Sources */,
+				EC30AE9862233C70F67A28127E5D2045 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB2686ED67A5E3CAC37AA81FB5208A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07353B855A7C589F3959F32FE1124699 /* Pods-FSPhotoTool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB9E5D1F49E6E1CB52E7E4F9FF64013C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSPhotoTool;
+			target = 92222DC28F2BD22675B75C4E8D4E3012 /* FSPhotoTool */;
+			targetProxy = 5659E0F0A0C68FF58EEC256ACE2653BB /* PBXContainerItemProxy */;
+		};
+		BFC5C6F042D159C7A44EE67E6F9985D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FSPhotoTool_Example";
+			target = 5614D61C40E32137BF9956423C019A5E /* Pods-FSPhotoTool_Example */;
+			targetProxy = 26D39848C94002BFA528D34F2829377C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		007F1C5DFD820DD9C173656B384A0862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D689B30D0359689DA1D4103C069721A7 /* FSPhotoTool.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSPhotoTool/FSPhotoTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSPhotoTool/FSPhotoTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FSPhotoTool/FSPhotoTool.modulemap";
+				PRODUCT_MODULE_NAME = FSPhotoTool;
+				PRODUCT_NAME = FSPhotoTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		21E9D8761EBE33337203D64B725C8E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1765EB01945D9129866D745BB1CA91B5 /* FSPhotoTool.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSPhotoTool/FSPhotoTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSPhotoTool/FSPhotoTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FSPhotoTool/FSPhotoTool.modulemap";
+				PRODUCT_MODULE_NAME = FSPhotoTool;
+				PRODUCT_NAME = FSPhotoTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5396B14A57070E3548969944DE9A41C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28ECC529C31A2D6F970B0B499EB1DEFC /* Pods-FSPhotoTool_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FSPhotoTool_Example/Pods-FSPhotoTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FSPhotoTool_Example/Pods-FSPhotoTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5AACE1CBF894B6BAABC541A21DFDB990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09FFC5FCA027B34A37490486E47BA024 /* Pods-FSPhotoTool_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FSPhotoTool_Example/Pods-FSPhotoTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FSPhotoTool_Example/Pods-FSPhotoTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7555B232E5895606D8AF839B273C99DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF8AF8D3ABF080F35F415A796CE3E381 /* Pods-FSPhotoTool_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FSPhotoTool_Tests/Pods-FSPhotoTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FSPhotoTool_Tests/Pods-FSPhotoTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A41E8B58D68FC972A087A7E5AB548226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA9A2A7D7A025F3185726506D5FCE4C0 /* Pods-FSPhotoTool_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FSPhotoTool_Tests/Pods-FSPhotoTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FSPhotoTool_Tests/Pods-FSPhotoTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E271CEF832AA4D780434EF730F642A8 /* Build configuration list for PBXNativeTarget "FSPhotoTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21E9D8761EBE33337203D64B725C8E97 /* Debug */,
+				007F1C5DFD820DD9C173656B384A0862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60423C8106692D81EE0F64792AA2A92C /* Build configuration list for PBXNativeTarget "Pods-FSPhotoTool_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7555B232E5895606D8AF839B273C99DC /* Debug */,
+				A41E8B58D68FC972A087A7E5AB548226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD20C1FE97681A087B5DE4FE03500470 /* Build configuration list for PBXNativeTarget "Pods-FSPhotoTool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5396B14A57070E3548969944DE9A41C0 /* Debug */,
+				5AACE1CBF894B6BAABC541A21DFDB990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

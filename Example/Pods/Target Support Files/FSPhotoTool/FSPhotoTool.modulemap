@@ -1,0 +1,6 @@
+framework module FSPhotoTool {
+  umbrella header "FSPhotoTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

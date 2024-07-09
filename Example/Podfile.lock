@@ -1,0 +1,16 @@
+PODS:
+  - FSPhotoTool (0.1.0)
+
+DEPENDENCIES:
+  - FSPhotoTool (from `../`)
+
+EXTERNAL SOURCES:
+  FSPhotoTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FSPhotoTool: 4e68efd9e44800a5f7c353695d5d30a61752362f
+
+PODFILE CHECKSUM: 453fac95b43f85344b30b76cbb2714f83ad0c4da
+
+COCOAPODS: 1.15.2
